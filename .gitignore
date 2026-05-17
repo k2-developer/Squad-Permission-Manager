@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+.DS_Store
+certificates/
+
+# Dev-only — local convenience runners that point at sibling scripts not
+# shipped in this repo. Forks build via Docker (see README → Установка).
+dev.sh
+.vscode/
+.idea/
+*.tsbuildinfo
+
+# Local branding work — entirely outside the public repo.
+branding/
